@@ -1,0 +1,270 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Xilinx91i\2015_CPU\CPU_all3
+T_opt
+Z1 VH0Y_H8c>5Z9ck`fce>=><0
+Z2 04 9 8 work test3_vhd behavior 1
+Z3 =1-000c29e23b9b-55bb4e90-2bd-ec8
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;6.5c;42
+Ecpu_all3
+Z7 w1438334852
+Z8 DPx22 C:\modeltech_6.5c\ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z9 DPx22 C:\modeltech_6.5c\ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z10 DPx22 C:\modeltech_6.5c\ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+31
+Z11 8CPU_all3.vhd
+Z12 FCPU_all3.vhd
+l0
+L30
+Z13 VUMULG?RdXZa<MOLCGmP]m2
+Z14 OE;C;6.5c;42
+Z15 o-explicit -93
+Z16 tExplicit 1
+Z17 !s100 OEnFM;z[EKL]SzgnbP^g>0
+Abehavioral
+Z18 DEx35 C:\Xilinx91i\2015_CPU\CPU_all3\work 11 cpu_control 0 22 b@>BQf^AYY^EbcLMD>AjX2
+Z19 DEx35 C:\Xilinx91i\2015_CPU\CPU_all3\work 13 cpu_writeback 0 22 d?[17K^dEiKia@^]X@iOG2
+Z20 DEx35 C:\Xilinx91i\2015_CPU\CPU_all3\work 10 cpu_memory 0 22 aPbm96DU>5>E9aD48?FZZ3
+Z21 DEx35 C:\Xilinx91i\2015_CPU\CPU_all3\work 11 cpu_compute 0 22 Z1]znQ_V^QTOzD5:5`42R2
+Z22 DEx35 C:\Xilinx91i\2015_CPU\CPU_all3\work 6 cpu_pc 0 22 4gPfB@IgV0:eC[ih_TCbK3
+Z23 DEx35 C:\Xilinx91i\2015_CPU\CPU_all3\work 9 cpu_clock 0 22 iFOUfZ`bY]X_3PAL^T[eG3
+R8
+R9
+R10
+Z24 DEx35 C:\Xilinx91i\2015_CPU\CPU_all3\work 8 cpu_all3 0 22 UMULG?RdXZa<MOLCGmP]m2
+31
+Z25 Mx3 22 C:\modeltech_6.5c\ieee 14 std_logic_1164
+Z26 Mx2 22 C:\modeltech_6.5c\ieee 15 std_logic_arith
+Z27 Mx1 22 C:\modeltech_6.5c\ieee 18 std_logic_unsigned
+l117
+L45
+Z28 VKMJH9O4K0>4_S]SZ>F9>P1
+R14
+R15
+R16
+Z29 !s100 g`44_6WahG340l7k>AlK:0
+Ecpu_clock
+R7
+Z30 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z31 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z32 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+R11
+R12
+l0
+L210
+Z33 ViFOUfZ`bY]X_3PAL^T[eG3
+R14
+31
+R15
+R16
+Z34 !s100 MVo7Z4L8mmc>XPog<;_8g3
+Abehavioral
+R30
+R31
+R32
+Z35 DEx4 work 9 cpu_clock 0 22 iFOUfZ`bY]X_3PAL^T[eG3
+l34
+L32
+Z36 VXji]En`9I2FnVm_S9<>9_2
+R14
+31
+Z37 Mx3 4 ieee 14 std_logic_1164
+Z38 Mx2 4 ieee 15 std_logic_arith
+Z39 Mx1 4 ieee 18 std_logic_unsigned
+R15
+R16
+Z40 !s100 5HGF;aEn4Cg8BziNNE0i]0
+Ecpu_compute
+R7
+R30
+R31
+R32
+R11
+R12
+l0
+L287
+Z41 VZ1]znQ_V^QTOzD5:5`42R2
+R14
+31
+R15
+R16
+Z42 !s100 IHT?Pg=aVJ<U8FzY>Ak581
+Abehavioral
+R30
+R31
+R32
+Z43 DEx4 work 11 cpu_compute 0 22 Z1]znQ_V^QTOzD5:5`42R2
+l116
+L112
+Z44 VQaXmM[^4<kmAhOm6Of;en0
+R14
+31
+R37
+R38
+R39
+R15
+R16
+Z45 !s100 ^KkUQ]PLjoZS??RI1jmO[1
+Ecpu_control
+R7
+R30
+R31
+R32
+R11
+R12
+l0
+L502
+Z46 Vb@>BQf^AYY^EbcLMD>AjX2
+R14
+31
+R15
+R16
+Z47 !s100 UfUijc8Pd2Za24ic0h<Kk2
+Abehavioral
+R30
+R31
+R32
+Z48 DEx4 work 11 cpu_control 0 22 b@>BQf^AYY^EbcLMD>AjX2
+l522
+L520
+Z49 Vi?feVoRe1m=ocQ:G7bZGH3
+R14
+31
+R37
+R38
+R39
+R15
+R16
+Z50 !s100 c<B41M<JE^V?KN;BT0>JR0
+Ecpu_memory
+R7
+R30
+R31
+R32
+R11
+R12
+l0
+L401
+Z51 VaPbm96DU>5>E9aD48?FZZ3
+R14
+31
+R15
+R16
+Z52 !s100 jWTE0d6;m8BfPDk[EaiCX2
+Abehavioral
+R30
+R31
+R32
+Z53 DEx4 work 10 cpu_memory 0 22 aPbm96DU>5>E9aD48?FZZ3
+l228
+L226
+Z54 VMAP05^UIS2]Y9fedf_O^;3
+R14
+31
+R37
+R38
+R39
+R15
+R16
+Z55 !s100 5f1IhYW_7F3YJij3jUC8^1
+Ecpu_pc
+R7
+R30
+R31
+R32
+R11
+R12
+l0
+L240
+Z56 V4gPfB@IgV0:eC[ih_TCbK3
+R14
+31
+R15
+R16
+Z57 !s100 nJ=3<h_H8Z2cm[^:b=]_L3
+Abehavioral
+R30
+R31
+R32
+Z58 DEx4 work 6 cpu_pc 0 22 4gPfB@IgV0:eC[ih_TCbK3
+l70
+L68
+Z59 V5jh::c<f2dO9Oz:NVj__E2
+R14
+31
+R37
+R38
+R39
+R15
+R16
+Z60 !s100 RHTDT:hcean2L_`@Li8Q`1
+Ecpu_writeback
+R7
+R30
+R31
+R32
+R11
+R12
+l0
+L435
+Z61 Vd?[17K^dEiKia@^]X@iOG2
+R14
+31
+R15
+R16
+Z62 !s100 9DIIehBg_`ji8V[:Bn8iQ3
+Abehavioral
+R30
+R31
+R32
+Z63 DEx4 work 13 cpu_writeback 0 22 d?[17K^dEiKia@^]X@iOG2
+l266
+L264
+Z64 VAdYU[;V8n9g<hh;n;d=hf2
+R14
+31
+R37
+R38
+R39
+R15
+R16
+Z65 !s100 6gjRM9>ANVdc^YIf[jVgV0
+Etest3_vhd
+Z66 w1438329426
+Z67 DPx22 C:\modeltech_6.5c\ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+R9
+R8
+R10
+31
+Z68 8Test3.vhd
+Z69 FTest3.vhd
+l0
+L34
+Z70 VmaCVMYkbSC]Y];B:z16i10
+R14
+R15
+R16
+Z71 !s100 US6E?F<Z7glo79aXYbhXo0
+Abehavior
+R24
+R67
+R9
+R8
+R10
+Z72 DEx35 C:\Xilinx91i\2015_CPU\CPU_all3\work 9 test3_vhd 0 22 maCVMYkbSC]Y];B:z16i10
+31
+Z73 Mx4 22 C:\modeltech_6.5c\ieee 14 std_logic_1164
+Z74 Mx3 22 C:\modeltech_6.5c\ieee 18 std_logic_unsigned
+R26
+Z75 Mx1 22 C:\modeltech_6.5c\ieee 11 numeric_std
+l69
+L37
+Z76 VnjAoCeIGjYcF8j8?EWEMb2
+Z77 !s100 egAIfZ22FB0T8R[N:92:J0
+R14
+R15
+R16
