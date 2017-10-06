@@ -1,0 +1,40 @@
+V3 24
+FL C:/CPU_all/CPU_all3.vhd 2015/08/07.18:14:47 J.30
+EN work/CPU_all3 1438942509 FL C:/CPU_all/CPU_all3.vhd PB ieee/std_logic_1164 1163575071 \
+      PB ieee/std_logic_arith 1163575072 PB ieee/STD_LOGIC_UNSIGNED 1163575073
+AR work/CPU_all3/Behavioral 1438942510 \
+      FL C:/CPU_all/CPU_all3.vhd EN work/CPU_all3 1438942509 CP CPU_clock CP CPU_PC \
+      CP CPU_compute CP CPU_memory CP CPU_writeback CP CPU_control
+EN work/CPU_clock 1438942511 \
+      FL C:/CPU_all/CPU_all3.vhd PB ieee/std_logic_1164 1163575071 \
+      PB ieee/std_logic_arith 1163575072 PB ieee/STD_LOGIC_UNSIGNED 1163575073
+AR work/CPU_clock/Behavioral 1438942512 \
+      FL C:/CPU_all/CPU_all3.vhd EN work/CPU_clock 1438942511
+EN work/CPU_PC 1438942513 \
+      FL C:/CPU_all/CPU_all3.vhd PB ieee/std_logic_1164 1163575071 \
+      PB ieee/std_logic_arith 1163575072 PB ieee/STD_LOGIC_UNSIGNED 1163575073
+AR work/CPU_PC/Behavioral 1438942514 \
+      FL C:/CPU_all/CPU_all3.vhd EN work/CPU_PC 1438942513
+EN work/CPU_compute 1438942515 \
+      FL C:/CPU_all/CPU_all3.vhd PB ieee/std_logic_1164 1163575071 \
+      PB ieee/std_logic_arith 1163575072 PB ieee/STD_LOGIC_UNSIGNED 1163575073
+AR work/CPU_compute/Behavioral 1438942516 \
+      FL C:/CPU_all/CPU_all3.vhd EN work/CPU_compute 1438942515
+EN work/CPU_memory 1438942517 \
+      FL C:/CPU_all/CPU_all3.vhd PB ieee/std_logic_1164 1163575071 \
+      PB ieee/std_logic_arith 1163575072 PB ieee/STD_LOGIC_UNSIGNED 1163575073
+AR work/CPU_memory/Behavioral 1438942518 \
+      FL C:/CPU_all/CPU_all3.vhd EN work/CPU_memory 1438942517
+EN work/CPU_writeback 1438942519 \
+      FL C:/CPU_all/CPU_all3.vhd PB ieee/std_logic_1164 1163575071 \
+      PB ieee/std_logic_arith 1163575072 PB ieee/STD_LOGIC_UNSIGNED 1163575073
+AR work/CPU_writeback/Behavioral 1438942520 \
+      FL C:/CPU_all/CPU_all3.vhd EN work/CPU_writeback 1438942519
+EN work/CPU_control 1438942521 \
+      FL C:/CPU_all/CPU_all3.vhd PB ieee/std_logic_1164 1163575071 \
+      PB ieee/std_logic_arith 1163575072 PB ieee/STD_LOGIC_UNSIGNED 1163575073
+AR work/CPU_control/Behavioral 1438942522 \
+      FL C:/CPU_all/CPU_all3.vhd EN work/CPU_control 1438942521
+FL $XILINX/2015_CPU/CPU_all3/CPU_all3.vhd 2015/08/01.12:47:56 J.30
+FL D:/CPU_all3/CPU_all3.vhd 2015/08/04.14:20:25 J.30
+FL F:/CPU_all3/CPU_all3.vhd 2015/08/03.16:45:32 J.30

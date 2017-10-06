@@ -1,0 +1,14 @@
+AR cpu_memory behavioral C:/CPU_all/CPU_all3.vhd sub00/vhpl07 1438942518
+EN cpu_pc NULL C:/CPU_all/CPU_all3.vhd sub00/vhpl02 1438942513
+AR cpu_compute behavioral C:/CPU_all/CPU_all3.vhd sub00/vhpl05 1438942516
+AR cpu_all3 behavioral C:/CPU_all/CPU_all3.vhd sub00/vhpl13 1438942510
+EN cpu_memory NULL C:/CPU_all/CPU_all3.vhd sub00/vhpl06 1438942517
+AR cpu_control behavioral C:/CPU_all/CPU_all3.vhd sub00/vhpl11 1438942522
+EN cpu_compute NULL C:/CPU_all/CPU_all3.vhd sub00/vhpl04 1438942515
+AR cpu_writeback behavioral C:/CPU_all/CPU_all3.vhd sub00/vhpl09 1438942520
+EN cpu_clock NULL C:/CPU_all/CPU_all3.vhd sub00/vhpl00 1438942511
+EN cpu_control NULL C:/CPU_all/CPU_all3.vhd sub00/vhpl10 1438942521
+EN cpu_all3 NULL C:/CPU_all/CPU_all3.vhd sub00/vhpl12 1438942509
+AR cpu_clock behavioral C:/CPU_all/CPU_all3.vhd sub00/vhpl01 1438942512
+EN cpu_writeback NULL C:/CPU_all/CPU_all3.vhd sub00/vhpl08 1438942519
+AR cpu_pc behavioral C:/CPU_all/CPU_all3.vhd sub00/vhpl03 1438942514
