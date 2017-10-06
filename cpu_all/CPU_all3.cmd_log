@@ -1,0 +1,140 @@
+xst -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+xst -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+xst -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+xst -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+xst -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+xst -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+xst -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+xst -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+xst -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+xst -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+xst -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+xst -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+xst -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+xst -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+xst -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+xst -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+ngdbuild -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -dd _ngo -nt timestamp -uc "CPU_all3.ucf" -p xcv200-pq240-4 "CPU_all3.ngc" CPU_all3.ngd
+xst -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+xst -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+ngdbuild -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -dd _ngo -nt timestamp -uc "CPU_all3.ucf" -p xcv200-pq240-4 "CPU_all3.ngc" CPU_all3.ngd
+map -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -p xcv200-pq240-4 -cm area -pr b -k 4 -c 100 -tx off -o CPU_all3_map.ncd CPU_all3.ngd CPU_all3.pcf
+par -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -w -intstyle ise -ol std -t 1 CPU_all3_map.ncd CPU_all3.ncd CPU_all3.pcf
+trce -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -e 3 -s 4 -xml CPU_all3 CPU_all3.ncd -o CPU_all3.twr CPU_all3.pcf -ucf CPU_all3.ucf
+bitgen -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -f CPU_all3.ut CPU_all3.ncd
+xst -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+ngdbuild -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -dd _ngo -nt timestamp -uc "CPU_all3.ucf" -p xcv200-pq240-4 "CPU_all3.ngc" CPU_all3.ngd
+map -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -p xcv200-pq240-4 -cm area -pr b -k 4 -c 100 -tx off -o CPU_all3_map.ncd CPU_all3.ngd CPU_all3.pcf
+par -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -w -intstyle ise -ol std -t 1 CPU_all3_map.ncd CPU_all3.ncd CPU_all3.pcf
+trce -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -e 3 -s 4 -xml CPU_all3 CPU_all3.ncd -o CPU_all3.twr CPU_all3.pcf -ucf CPU_all3.ucf
+bitgen -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -f CPU_all3.ut CPU_all3.ncd
+xst -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+ngdbuild -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -dd _ngo -nt timestamp -uc "CPU_all3.ucf" -p xcv200-pq240-4 "CPU_all3.ngc" CPU_all3.ngd
+map -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -p xcv200-pq240-4 -cm area -pr b -k 4 -c 100 -tx off -o CPU_all3_map.ncd CPU_all3.ngd CPU_all3.pcf
+par -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -w -intstyle ise -ol std -t 1 CPU_all3_map.ncd CPU_all3.ncd CPU_all3.pcf
+trce -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -e 3 -s 4 -xml CPU_all3 CPU_all3.ncd -o CPU_all3.twr CPU_all3.pcf -ucf CPU_all3.ucf
+bitgen -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -f CPU_all3.ut CPU_all3.ncd
+xst -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+ngdbuild -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -dd _ngo -nt timestamp -uc "CPU_all3.ucf" -p xcv200-pq240-4 "CPU_all3.ngc" CPU_all3.ngd
+map -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -p xcv200-pq240-4 -cm area -pr b -k 4 -c 100 -tx off -o CPU_all3_map.ncd CPU_all3.ngd CPU_all3.pcf
+par -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -w -intstyle ise -ol std -t 1 CPU_all3_map.ncd CPU_all3.ncd CPU_all3.pcf
+trce -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -e 3 -s 4 -xml CPU_all3 CPU_all3.ncd -o CPU_all3.twr CPU_all3.pcf -ucf CPU_all3.ucf
+bitgen -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -f CPU_all3.ut CPU_all3.ncd
+xst -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+xst -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+ngdbuild -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -dd _ngo -nt timestamp -uc "CPU_all3.ucf" -p xcv200-pq240-4 "CPU_all3.ngc" CPU_all3.ngd
+map -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -p xcv200-pq240-4 -cm area -pr b -k 4 -c 100 -tx off -o CPU_all3_map.ncd CPU_all3.ngd CPU_all3.pcf
+par -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -w -intstyle ise -ol std -t 1 CPU_all3_map.ncd CPU_all3.ncd CPU_all3.pcf
+trce -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -e 3 -s 4 -xml CPU_all3 CPU_all3.ncd -o CPU_all3.twr CPU_all3.pcf -ucf CPU_all3.ucf
+bitgen -ise "C:/Xilinx91i/2015_CPU/CPU_all3/CPU_all3.ise" -intstyle ise -f CPU_all3.ut CPU_all3.ncd
+xst -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+ngdbuild -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -dd _ngo -nt timestamp -uc "CPU_all3.ucf" -p xcv200-pq240-4 "CPU_all3.ngc" CPU_all3.ngd
+map -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -p xcv200-pq240-4 -cm area -pr b -k 4 -c 100 -tx off -o CPU_all3_map.ncd CPU_all3.ngd CPU_all3.pcf
+map -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -p xcv200-pq240-4 -cm area -pr b -k 4 -c 100 -tx off -o CPU_all3_map.ncd CPU_all3.ngd CPU_all3.pcf
+par -ise "F:/CPU_all3/CPU_all3.ise" -w -intstyle ise -ol std -t 1 CPU_all3_map.ncd CPU_all3.ncd CPU_all3.pcf
+trce -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -e 3 -s 4 -xml CPU_all3 CPU_all3.ncd -o CPU_all3.twr CPU_all3.pcf -ucf CPU_all3.ucf
+bitgen -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -f CPU_all3.ut CPU_all3.ncd
+xst -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+ngdbuild -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -dd _ngo -nt timestamp -uc "CPU_all3.ucf" -p xcv200-pq240-4 "CPU_all3.ngc" CPU_all3.ngd
+map -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -p xcv200-pq240-4 -cm area -pr b -k 4 -c 100 -tx off -o CPU_all3_map.ncd CPU_all3.ngd CPU_all3.pcf
+par -ise "F:/CPU_all3/CPU_all3.ise" -w -intstyle ise -ol std -t 1 CPU_all3_map.ncd CPU_all3.ncd CPU_all3.pcf
+trce -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -e 3 -s 4 -xml CPU_all3 CPU_all3.ncd -o CPU_all3.twr CPU_all3.pcf -ucf CPU_all3.ucf
+bitgen -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -f CPU_all3.ut CPU_all3.ncd
+xst -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+xst -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+xst -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+xst -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+ngdbuild -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -dd _ngo -nt timestamp -uc "CPU_all3.ucf" -p xcv200-pq240-4 "CPU_all3.ngc" CPU_all3.ngd
+map -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -p xcv200-pq240-4 -cm area -pr b -k 4 -c 100 -tx off -o CPU_all3_map.ncd CPU_all3.ngd CPU_all3.pcf
+par -ise "F:/CPU_all3/CPU_all3.ise" -w -intstyle ise -ol std -t 1 CPU_all3_map.ncd CPU_all3.ncd CPU_all3.pcf
+trce -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -e 3 -s 4 -xml CPU_all3 CPU_all3.ncd -o CPU_all3.twr CPU_all3.pcf -ucf CPU_all3.ucf
+bitgen -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -f CPU_all3.ut CPU_all3.ncd
+xst -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+ngdbuild -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -dd _ngo -nt timestamp -uc "CPU_all3.ucf" -p xcv200-pq240-4 "CPU_all3.ngc" CPU_all3.ngd
+map -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -p xcv200-pq240-4 -cm area -pr b -k 4 -c 100 -tx off -o CPU_all3_map.ncd CPU_all3.ngd CPU_all3.pcf
+par -ise "F:/CPU_all3/CPU_all3.ise" -w -intstyle ise -ol std -t 1 CPU_all3_map.ncd CPU_all3.ncd CPU_all3.pcf
+trce -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -e 3 -s 4 -xml CPU_all3 CPU_all3.ncd -o CPU_all3.twr CPU_all3.pcf -ucf CPU_all3.ucf
+bitgen -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -f CPU_all3.ut CPU_all3.ncd
+xst -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+ngdbuild -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -dd _ngo -nt timestamp -uc "CPU_all3.ucf" -p xcv200-pq240-4 "CPU_all3.ngc" CPU_all3.ngd
+map -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -p xcv200-pq240-4 -cm area -pr b -k 4 -c 100 -tx off -o CPU_all3_map.ncd CPU_all3.ngd CPU_all3.pcf
+par -ise "F:/CPU_all3/CPU_all3.ise" -w -intstyle ise -ol std -t 1 CPU_all3_map.ncd CPU_all3.ncd CPU_all3.pcf
+trce -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -e 3 -s 4 -xml CPU_all3 CPU_all3.ncd -o CPU_all3.twr CPU_all3.pcf -ucf CPU_all3.ucf
+bitgen -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -f CPU_all3.ut CPU_all3.ncd
+xst -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+xst -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+ngdbuild -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -dd _ngo -nt timestamp -uc "CPU_all3.ucf" -p xcv200-pq240-4 "CPU_all3.ngc" CPU_all3.ngd
+map -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -p xcv200-pq240-4 -cm area -pr b -k 4 -c 100 -tx off -o CPU_all3_map.ncd CPU_all3.ngd CPU_all3.pcf
+par -ise "F:/CPU_all3/CPU_all3.ise" -w -intstyle ise -ol std -t 1 CPU_all3_map.ncd CPU_all3.ncd CPU_all3.pcf
+trce -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -e 3 -s 4 -xml CPU_all3 CPU_all3.ncd -o CPU_all3.twr CPU_all3.pcf -ucf CPU_all3.ucf
+bitgen -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -f CPU_all3.ut CPU_all3.ncd
+xst -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+ngdbuild -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -dd _ngo -nt timestamp -uc "CPU_all3.ucf" -p xcv200-pq240-4 "CPU_all3.ngc" CPU_all3.ngd
+map -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -p xcv200-pq240-4 -cm area -pr b -k 4 -c 100 -tx off -o CPU_all3_map.ncd CPU_all3.ngd CPU_all3.pcf
+par -ise "F:/CPU_all3/CPU_all3.ise" -w -intstyle ise -ol std -t 1 CPU_all3_map.ncd CPU_all3.ncd CPU_all3.pcf
+trce -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -e 3 -s 4 -xml CPU_all3 CPU_all3.ncd -o CPU_all3.twr CPU_all3.pcf -ucf CPU_all3.ucf
+bitgen -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -f CPU_all3.ut CPU_all3.ncd
+xst -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+ngdbuild -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -dd _ngo -nt timestamp -uc "CPU_all3.ucf" -p xcv200-pq240-4 "CPU_all3.ngc" CPU_all3.ngd
+map -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -p xcv200-pq240-4 -cm area -pr b -k 4 -c 100 -tx off -o CPU_all3_map.ncd CPU_all3.ngd CPU_all3.pcf
+par -ise "F:/CPU_all3/CPU_all3.ise" -w -intstyle ise -ol std -t 1 CPU_all3_map.ncd CPU_all3.ncd CPU_all3.pcf
+trce -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -e 3 -s 4 -xml CPU_all3 CPU_all3.ncd -o CPU_all3.twr CPU_all3.pcf -ucf CPU_all3.ucf
+bitgen -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -f CPU_all3.ut CPU_all3.ncd
+xst -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+ngdbuild -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -dd _ngo -nt timestamp -uc "CPU_all3.ucf" -p xcv200-pq240-4 "CPU_all3.ngc" CPU_all3.ngd
+map -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -p xcv200-pq240-4 -cm area -pr b -k 4 -c 100 -tx off -o CPU_all3_map.ncd CPU_all3.ngd CPU_all3.pcf
+par -ise "F:/CPU_all3/CPU_all3.ise" -w -intstyle ise -ol std -t 1 CPU_all3_map.ncd CPU_all3.ncd CPU_all3.pcf
+trce -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -e 3 -s 4 -xml CPU_all3 CPU_all3.ncd -o CPU_all3.twr CPU_all3.pcf -ucf CPU_all3.ucf
+bitgen -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -f CPU_all3.ut CPU_all3.ncd
+xst -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+xst -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+xst -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+ngdbuild -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -dd _ngo -nt timestamp -uc "CPU_all3.ucf" -p xcv200-pq240-4 "CPU_all3.ngc" CPU_all3.ngd
+map -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -p xcv200-pq240-4 -cm area -pr b -k 4 -c 100 -tx off -o CPU_all3_map.ncd CPU_all3.ngd CPU_all3.pcf
+par -ise "F:/CPU_all3/CPU_all3.ise" -w -intstyle ise -ol std -t 1 CPU_all3_map.ncd CPU_all3.ncd CPU_all3.pcf
+trce -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -e 3 -s 4 -xml CPU_all3 CPU_all3.ncd -o CPU_all3.twr CPU_all3.pcf -ucf CPU_all3.ucf
+bitgen -ise "F:/CPU_all3/CPU_all3.ise" -intstyle ise -f CPU_all3.ut CPU_all3.ncd
+xst -ise "D:/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+ngdbuild -ise "D:/CPU_all3/CPU_all3.ise" -intstyle ise -dd _ngo -nt timestamp -uc "CPU_all3.ucf" -p xcv200-pq240-4 "CPU_all3.ngc" CPU_all3.ngd
+map -ise "D:/CPU_all3/CPU_all3.ise" -intstyle ise -p xcv200-pq240-4 -cm area -pr b -k 4 -c 100 -tx off -o CPU_all3_map.ncd CPU_all3.ngd CPU_all3.pcf
+par -ise "D:/CPU_all3/CPU_all3.ise" -w -intstyle ise -ol std -t 1 CPU_all3_map.ncd CPU_all3.ncd CPU_all3.pcf
+trce -ise "D:/CPU_all3/CPU_all3.ise" -intstyle ise -e 3 -s 4 -xml CPU_all3 CPU_all3.ncd -o CPU_all3.twr CPU_all3.pcf -ucf CPU_all3.ucf
+bitgen -ise "D:/CPU_all3/CPU_all3.ise" -intstyle ise -f CPU_all3.ut CPU_all3.ncd
+xst -ise "D:/CPU_all3/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+ngdbuild -ise "D:/CPU_all3/CPU_all3.ise" -intstyle ise -dd _ngo -nt timestamp -uc "CPU_all3.ucf" -p xcv200-pq240-4 "CPU_all3.ngc" CPU_all3.ngd
+map -ise "D:/CPU_all3/CPU_all3.ise" -intstyle ise -p xcv200-pq240-4 -cm area -pr b -k 4 -c 100 -tx off -o CPU_all3_map.ncd CPU_all3.ngd CPU_all3.pcf
+par -ise "D:/CPU_all3/CPU_all3.ise" -w -intstyle ise -ol std -t 1 CPU_all3_map.ncd CPU_all3.ncd CPU_all3.pcf
+trce -ise "D:/CPU_all3/CPU_all3.ise" -intstyle ise -e 3 -s 4 -xml CPU_all3 CPU_all3.ncd -o CPU_all3.twr CPU_all3.pcf -ucf CPU_all3.ucf
+bitgen -ise "D:/CPU_all3/CPU_all3.ise" -intstyle ise -f CPU_all3.ut CPU_all3.ncd
+xst -ise "C:/CPU_all/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+ngdbuild -ise "C:/CPU_all/CPU_all3.ise" -intstyle ise -dd _ngo -nt timestamp -uc "CPU_all3.ucf" -p xcv200-pq240-4 "CPU_all3.ngc" CPU_all3.ngd
+map -ise "C:/CPU_all/CPU_all3.ise" -intstyle ise -p xcv200-pq240-4 -cm area -pr b -k 4 -c 100 -tx off -o CPU_all3_map.ncd CPU_all3.ngd CPU_all3.pcf
+par -ise "C:/CPU_all/CPU_all3.ise" -w -intstyle ise -ol std -t 1 CPU_all3_map.ncd CPU_all3.ncd CPU_all3.pcf
+trce -ise "C:/CPU_all/CPU_all3.ise" -intstyle ise -e 3 -s 4 -xml CPU_all3 CPU_all3.ncd -o CPU_all3.twr CPU_all3.pcf -ucf CPU_all3.ucf
+bitgen -ise "C:/CPU_all/CPU_all3.ise" -intstyle ise -f CPU_all3.ut CPU_all3.ncd
+xst -ise "C:/CPU_all/CPU_all3.ise" -intstyle ise -ifn CPU_all3.xst -ofn CPU_all3.syr
+ngdbuild -ise "C:/CPU_all/CPU_all3.ise" -intstyle ise -dd _ngo -nt timestamp -uc "CPU_all3.ucf" -p xcv200-pq240-4 "CPU_all3.ngc" CPU_all3.ngd
+map -ise "C:/CPU_all/CPU_all3.ise" -intstyle ise -p xcv200-pq240-4 -cm area -pr b -k 4 -c 100 -tx off -o CPU_all3_map.ncd CPU_all3.ngd CPU_all3.pcf
+par -ise "C:/CPU_all/CPU_all3.ise" -w -intstyle ise -ol std -t 1 CPU_all3_map.ncd CPU_all3.ncd CPU_all3.pcf
+trce -ise "C:/CPU_all/CPU_all3.ise" -intstyle ise -e 3 -s 4 -xml CPU_all3 CPU_all3.ncd -o CPU_all3.twr CPU_all3.pcf -ucf CPU_all3.ucf
+bitgen -ise "C:/CPU_all/CPU_all3.ise" -intstyle ise -f CPU_all3.ut CPU_all3.ncd

@@ -1,0 +1,259 @@
+Release 9.1i Map J.30
+Xilinx Mapping Report File for Design 'CPU_all3'
+
+Design Information
+------------------
+Command Line   : C:\Xilinx91i\bin\nt\map.exe -ise C:/CPU_all/CPU_all3.ise
+-intstyle ise -p xcv200-pq240-4 -cm area -pr b -k 4 -c 100 -tx off -o
+CPU_all3_map.ncd CPU_all3.ngd CPU_all3.pcf 
+Target Device  : xcv200
+Target Package : pq240
+Target Speed   : -4
+Mapper Version : virtex -- $Revision: 1.36 $
+Mapped Date    : Fri Aug 07 18:15:25 2015
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    3
+Logic Utilization:
+  Total Number Slice Registers:     173 out of  4,704    3%
+    Number used as Flip Flops:                     61
+    Number used as Latches:                       112
+  Number of 4 input LUTs:           314 out of  4,704    6%
+Logic Distribution:
+    Number of occupied Slices:                         209 out of  2,352    8%
+    Number of Slices containing only related logic:    209 out of    209  100%
+    Number of Slices containing unrelated logic:         0 out of    209    0%
+        *See NOTES below for an explanation of the effects of unrelated logic
+Total Number of 4 input LUTs:          329 out of  4,704    6%
+      Number used as logic:                       314
+      Number used as a route-thru:                 15
+   Number of bonded IOBs:           102 out of    166   61%
+   Number of GCLKs:                   4 out of      4  100%
+   Number of GCLKIOBs:                1 out of      4   25%
+
+Total equivalent gate count for design:  3,355
+Additional JTAG gate count for IOBs:  4,944
+Peak Memory Usage:  143 MB
+Total REAL time to MAP completion:  2 secs 
+Total CPU time to MAP completion:   2 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Modular Design Summary
+Section 11 - Timing Report
+Section 12 - Configuration String Information
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:PhysDesignRules:372 - Gated clock. Clock net U4/Rtemp_cmp_eq0000 is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net U6/IR_out_not0001 is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net U6/Data_not0001 is sourced
+   by a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+
+Section 3 - Informational
+-------------------------
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs in the
+   schematic.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+   2 block(s) optimized away
+
+Section 5 - Removed Logic
+-------------------------
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		XST_GND
+VCC 		XST_VCC
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type    | Direction | IO Standard | Drive    | Slew | Reg (s)  | Resistor | IOB   |
+|                                    |         |           |             | Strength | Rate |          |          | Delay |
++------------------------------------------------------------------------------------------------------------------------+
+| CLK                                | GCLKIOB | INPUT     | LVTTL       |          |      |          |          |       |
+| A<0>                               | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| A<1>                               | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| A<2>                               | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| A<3>                               | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| A<4>                               | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| A<5>                               | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| A<6>                               | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| A<7>                               | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| ABUS<0>                            | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| ABUS<1>                            | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| ABUS<2>                            | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| ABUS<3>                            | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| ABUS<4>                            | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| ABUS<5>                            | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| ABUS<6>                            | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| ABUS<7>                            | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| ABUS<8>                            | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| ABUS<9>                            | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| ABUS<10>                           | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| ABUS<11>                           | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| ABUS<12>                           | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| ABUS<13>                           | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| ABUS<14>                           | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| ABUS<15>                           | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| B<0>                               | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| B<1>                               | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| B<2>                               | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| B<3>                               | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| B<4>                               | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| B<5>                               | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| B<6>                               | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| B<7>                               | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| DBUS<0>                            | IOB     | BIDIR     | LVTTL       | 12       | SLOW |          |          |       |
+| DBUS<1>                            | IOB     | BIDIR     | LVTTL       | 12       | SLOW |          |          |       |
+| DBUS<2>                            | IOB     | BIDIR     | LVTTL       | 12       | SLOW |          |          |       |
+| DBUS<3>                            | IOB     | BIDIR     | LVTTL       | 12       | SLOW |          |          |       |
+| DBUS<4>                            | IOB     | BIDIR     | LVTTL       | 12       | SLOW |          |          |       |
+| DBUS<5>                            | IOB     | BIDIR     | LVTTL       | 12       | SLOW |          |          |       |
+| DBUS<6>                            | IOB     | BIDIR     | LVTTL       | 12       | SLOW |          |          |       |
+| DBUS<7>                            | IOB     | BIDIR     | LVTTL       | 12       | SLOW |          |          |       |
+| DBUS<8>                            | IOB     | BIDIR     | LVTTL       | 12       | SLOW |          |          |       |
+| DBUS<9>                            | IOB     | BIDIR     | LVTTL       | 12       | SLOW |          |          |       |
+| DBUS<10>                           | IOB     | BIDIR     | LVTTL       | 12       | SLOW |          |          |       |
+| DBUS<11>                           | IOB     | BIDIR     | LVTTL       | 12       | SLOW |          |          |       |
+| DBUS<12>                           | IOB     | BIDIR     | LVTTL       | 12       | SLOW |          |          |       |
+| DBUS<13>                           | IOB     | BIDIR     | LVTTL       | 12       | SLOW |          |          |       |
+| DBUS<14>                           | IOB     | BIDIR     | LVTTL       | 12       | SLOW |          |          |       |
+| DBUS<15>                           | IOB     | BIDIR     | LVTTL       | 12       | SLOW |          |          |       |
+| RST                                | IOB     | INPUT     | LVTTL       |          |      |          |          |       |
+| S0<0>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S0<1>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S0<2>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S0<3>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S0<4>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S0<5>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S0<6>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S0<7>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S1<0>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S1<1>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S1<2>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S1<3>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S1<4>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S1<5>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S1<6>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S1<7>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S2<0>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S2<1>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S2<2>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S2<3>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S2<4>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S2<5>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S2<6>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S2<7>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S3<0>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S3<1>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S3<2>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S3<3>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S3<4>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S3<5>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S3<6>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S3<7>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S4<0>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S4<1>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S4<2>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S4<3>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S4<4>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S4<5>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S4<6>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S4<7>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S5<0>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S5<1>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S5<2>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S5<3>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S5<4>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S5<5>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S5<6>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| S5<7>                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| nBHE                               | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| nBLE                               | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| nMREQ                              | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| nRD                                | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| nWR                                | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
++------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Modular Design Summary
+-----------------------------------
+Modular Design not used for this design.
+
+Section 11 - Timing Report
+--------------------------
+No timing report for this architecture.
+
+Section 12 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings

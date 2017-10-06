@@ -1,0 +1,5 @@
+# begin LFP file C:\Xilinx91i\2015_CPU\CPU_all3\CPU_all3.lfp
+designfile CPU_all3.vhd
+parttype xcv200-4-pq240
+bus_delimiter 0;
+set_busdelim_onsave 1;

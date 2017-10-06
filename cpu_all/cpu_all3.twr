@@ -1,0 +1,319 @@
+--------------------------------------------------------------------------------
+Release 9.1i Trace 
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx91i\bin\nt\trce.exe -ise C:/CPU_all/CPU_all3.ise -intstyle ise -e 3 -s
+4 -xml CPU_all3 CPU_all3.ncd -o CPU_all3.twr CPU_all3.pcf -ucf CPU_all3.ucf
+
+Design file:              cpu_all3.ncd
+Physical constraint file: cpu_all3.pcf
+Device,package,speed:     xcv200,pq240,-4 (FINAL 1.123 2006-10-19)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock RST
+------------+------------+------------+------------------+--------+
+            |  Setup to  |  Hold to   |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+DBUS<0>     |   -4.312(F)|   14.034(F)|U6/IR_out_not0001 |   0.000|
+DBUS<1>     |   -3.851(F)|   13.836(F)|U6/IR_out_not0001 |   0.000|
+DBUS<2>     |   -4.042(F)|   13.963(F)|U6/IR_out_not0001 |   0.000|
+DBUS<3>     |   -4.370(F)|   14.134(F)|U6/IR_out_not0001 |   0.000|
+DBUS<4>     |   -1.289(F)|   10.782(F)|U6/IR_out_not0001 |   0.000|
+DBUS<5>     |   -2.606(F)|   12.034(F)|U6/IR_out_not0001 |   0.000|
+DBUS<6>     |   -4.507(F)|   14.092(F)|U6/IR_out_not0001 |   0.000|
+DBUS<7>     |   -3.819(F)|   13.679(F)|U6/IR_out_not0001 |   0.000|
+DBUS<8>     |   -2.669(F)|   13.127(F)|U6/IR_out_not0001 |   0.000|
+DBUS<9>     |   -3.189(F)|   13.239(F)|U6/IR_out_not0001 |   0.000|
+DBUS<10>    |   -3.214(F)|   13.464(F)|U6/IR_out_not0001 |   0.000|
+DBUS<11>    |   -4.347(F)|   14.143(F)|U6/IR_out_not0001 |   0.000|
+DBUS<12>    |   -4.693(F)|   14.353(F)|U6/IR_out_not0001 |   0.000|
+DBUS<13>    |   -4.444(F)|   14.192(F)|U6/IR_out_not0001 |   0.000|
+DBUS<14>    |   -2.375(F)|   11.784(F)|U6/IR_out_not0001 |   0.000|
+DBUS<15>    |   -4.106(F)|   13.989(F)|U6/IR_out_not0001 |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock CLK to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+A<4>        |   23.692(R)|CLK_BUFGP         |   0.000|
+A<5>        |   24.922(R)|CLK_BUFGP         |   0.000|
+A<6>        |   22.821(R)|CLK_BUFGP         |   0.000|
+A<7>        |   23.211(R)|CLK_BUFGP         |   0.000|
+ABUS<0>     |   23.280(R)|CLK_BUFGP         |   0.000|
+ABUS<1>     |   23.294(R)|CLK_BUFGP         |   0.000|
+ABUS<2>     |   24.256(R)|CLK_BUFGP         |   0.000|
+ABUS<3>     |   23.917(R)|CLK_BUFGP         |   0.000|
+ABUS<4>     |   22.722(R)|CLK_BUFGP         |   0.000|
+ABUS<5>     |   25.107(R)|CLK_BUFGP         |   0.000|
+ABUS<6>     |   24.817(R)|CLK_BUFGP         |   0.000|
+ABUS<7>     |   24.271(R)|CLK_BUFGP         |   0.000|
+ABUS<8>     |   24.628(R)|CLK_BUFGP         |   0.000|
+ABUS<9>     |   24.470(R)|CLK_BUFGP         |   0.000|
+ABUS<10>    |   24.988(R)|CLK_BUFGP         |   0.000|
+ABUS<11>    |   21.842(R)|CLK_BUFGP         |   0.000|
+ABUS<12>    |   22.503(R)|CLK_BUFGP         |   0.000|
+ABUS<13>    |   21.731(R)|CLK_BUFGP         |   0.000|
+ABUS<14>    |   21.934(R)|CLK_BUFGP         |   0.000|
+ABUS<15>    |   23.921(R)|CLK_BUFGP         |   0.000|
+B<0>        |   14.397(R)|CLK_BUFGP         |   0.000|
+B<1>        |   13.316(R)|CLK_BUFGP         |   0.000|
+B<2>        |   13.281(R)|CLK_BUFGP         |   0.000|
+B<3>        |   13.043(R)|CLK_BUFGP         |   0.000|
+DBUS<0>     |   19.771(R)|CLK_BUFGP         |   0.000|
+DBUS<1>     |   19.662(R)|CLK_BUFGP         |   0.000|
+DBUS<2>     |   20.194(R)|CLK_BUFGP         |   0.000|
+DBUS<3>     |   20.194(R)|CLK_BUFGP         |   0.000|
+DBUS<4>     |   20.194(R)|CLK_BUFGP         |   0.000|
+DBUS<5>     |   20.244(R)|CLK_BUFGP         |   0.000|
+DBUS<6>     |   20.324(R)|CLK_BUFGP         |   0.000|
+DBUS<7>     |   20.092(R)|CLK_BUFGP         |   0.000|
+DBUS<8>     |   21.007(R)|CLK_BUFGP         |   0.000|
+DBUS<9>     |   21.007(R)|CLK_BUFGP         |   0.000|
+DBUS<10>    |   21.145(R)|CLK_BUFGP         |   0.000|
+DBUS<11>    |   21.145(R)|CLK_BUFGP         |   0.000|
+DBUS<12>    |   21.251(R)|CLK_BUFGP         |   0.000|
+DBUS<13>    |   21.251(R)|CLK_BUFGP         |   0.000|
+DBUS<14>    |   21.197(R)|CLK_BUFGP         |   0.000|
+DBUS<15>    |   21.144(R)|CLK_BUFGP         |   0.000|
+S0<0>       |   17.362(R)|CLK_BUFGP         |   0.000|
+S0<1>       |   18.664(R)|CLK_BUFGP         |   0.000|
+S0<2>       |   17.111(R)|CLK_BUFGP         |   0.000|
+S0<3>       |   17.017(R)|CLK_BUFGP         |   0.000|
+S0<4>       |   17.110(R)|CLK_BUFGP         |   0.000|
+S0<5>       |   16.709(R)|CLK_BUFGP         |   0.000|
+S0<6>       |   17.157(R)|CLK_BUFGP         |   0.000|
+S0<7>       |   16.480(R)|CLK_BUFGP         |   0.000|
+S1<0>       |   18.304(R)|CLK_BUFGP         |   0.000|
+S1<1>       |   19.443(R)|CLK_BUFGP         |   0.000|
+S1<2>       |   18.155(R)|CLK_BUFGP         |   0.000|
+S1<3>       |   18.245(R)|CLK_BUFGP         |   0.000|
+S1<4>       |   19.513(R)|CLK_BUFGP         |   0.000|
+S1<5>       |   17.682(R)|CLK_BUFGP         |   0.000|
+S1<6>       |   17.543(R)|CLK_BUFGP         |   0.000|
+S1<7>       |   18.135(R)|CLK_BUFGP         |   0.000|
+S5<0>       |   23.964(R)|CLK_BUFGP         |   0.000|
+S5<1>       |   24.989(R)|CLK_BUFGP         |   0.000|
+S5<2>       |   24.337(R)|CLK_BUFGP         |   0.000|
+S5<3>       |   24.918(R)|CLK_BUFGP         |   0.000|
+S5<4>       |   23.413(R)|CLK_BUFGP         |   0.000|
+S5<5>       |   24.693(R)|CLK_BUFGP         |   0.000|
+S5<6>       |   24.799(R)|CLK_BUFGP         |   0.000|
+S5<7>       |   24.084(R)|CLK_BUFGP         |   0.000|
+nBHE        |   24.168(R)|CLK_BUFGP         |   0.000|
+nBLE        |   23.361(R)|CLK_BUFGP         |   0.000|
+nMREQ       |   22.176(R)|CLK_BUFGP         |   0.000|
+nRD         |   23.544(R)|CLK_BUFGP         |   0.000|
+nWR         |   22.930(R)|CLK_BUFGP         |   0.000|
+------------+------------+------------------+--------+
+
+Clock RST to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+A<4>        |   36.964(F)|U6/IR_out_not0001 |   0.000|
+A<5>        |   38.194(F)|U6/IR_out_not0001 |   0.000|
+A<6>        |   36.093(F)|U6/IR_out_not0001 |   0.000|
+A<7>        |   36.483(F)|U6/IR_out_not0001 |   0.000|
+ABUS<0>     |   36.636(F)|U6/IR_out_not0001 |   0.000|
+ABUS<1>     |   36.650(F)|U6/IR_out_not0001 |   0.000|
+ABUS<2>     |   37.612(F)|U6/IR_out_not0001 |   0.000|
+ABUS<3>     |   37.273(F)|U6/IR_out_not0001 |   0.000|
+ABUS<4>     |   36.078(F)|U6/IR_out_not0001 |   0.000|
+ABUS<5>     |   38.463(F)|U6/IR_out_not0001 |   0.000|
+ABUS<6>     |   38.173(F)|U6/IR_out_not0001 |   0.000|
+ABUS<7>     |   37.627(F)|U6/IR_out_not0001 |   0.000|
+ABUS<8>     |   37.984(F)|U6/IR_out_not0001 |   0.000|
+ABUS<9>     |   37.826(F)|U6/IR_out_not0001 |   0.000|
+ABUS<10>    |   38.344(F)|U6/IR_out_not0001 |   0.000|
+ABUS<11>    |   35.198(F)|U6/IR_out_not0001 |   0.000|
+ABUS<12>    |   35.859(F)|U6/IR_out_not0001 |   0.000|
+ABUS<13>    |   35.087(F)|U6/IR_out_not0001 |   0.000|
+ABUS<14>    |   35.290(F)|U6/IR_out_not0001 |   0.000|
+ABUS<15>    |   37.277(F)|U6/IR_out_not0001 |   0.000|
+DBUS<0>     |   33.127(F)|U6/IR_out_not0001 |   0.000|
+DBUS<1>     |   33.018(F)|U6/IR_out_not0001 |   0.000|
+DBUS<2>     |   33.550(F)|U6/IR_out_not0001 |   0.000|
+DBUS<3>     |   33.550(F)|U6/IR_out_not0001 |   0.000|
+DBUS<4>     |   33.550(F)|U6/IR_out_not0001 |   0.000|
+DBUS<5>     |   33.600(F)|U6/IR_out_not0001 |   0.000|
+DBUS<6>     |   33.680(F)|U6/IR_out_not0001 |   0.000|
+DBUS<7>     |   33.448(F)|U6/IR_out_not0001 |   0.000|
+DBUS<8>     |   34.363(F)|U6/IR_out_not0001 |   0.000|
+DBUS<9>     |   34.363(F)|U6/IR_out_not0001 |   0.000|
+DBUS<10>    |   34.501(F)|U6/IR_out_not0001 |   0.000|
+DBUS<11>    |   34.501(F)|U6/IR_out_not0001 |   0.000|
+DBUS<12>    |   34.607(F)|U6/IR_out_not0001 |   0.000|
+DBUS<13>    |   34.607(F)|U6/IR_out_not0001 |   0.000|
+DBUS<14>    |   34.553(F)|U6/IR_out_not0001 |   0.000|
+DBUS<15>    |   34.500(F)|U6/IR_out_not0001 |   0.000|
+S0<0>       |   31.227(F)|U6/IR_out_not0001 |   0.000|
+S0<1>       |   33.098(F)|U6/IR_out_not0001 |   0.000|
+S0<2>       |   31.668(F)|U6/IR_out_not0001 |   0.000|
+S0<3>       |   31.286(F)|U6/IR_out_not0001 |   0.000|
+S0<4>       |   28.411(F)|U6/IR_out_not0001 |   0.000|
+S0<5>       |   29.136(F)|U6/IR_out_not0001 |   0.000|
+S0<6>       |   30.500(F)|U6/IR_out_not0001 |   0.000|
+S0<7>       |   30.103(F)|U6/IR_out_not0001 |   0.000|
+S1<0>       |   31.068(F)|U6/IR_out_not0001 |   0.000|
+S1<1>       |   31.569(F)|U6/IR_out_not0001 |   0.000|
+S1<2>       |   30.339(F)|U6/IR_out_not0001 |   0.000|
+S1<3>       |   31.601(F)|U6/IR_out_not0001 |   0.000|
+S1<4>       |   31.400(F)|U6/IR_out_not0001 |   0.000|
+S1<5>       |   30.896(F)|U6/IR_out_not0001 |   0.000|
+S1<6>       |   28.035(F)|U6/IR_out_not0001 |   0.000|
+S1<7>       |   31.429(F)|U6/IR_out_not0001 |   0.000|
+S5<0>       |   37.320(F)|U6/IR_out_not0001 |   0.000|
+S5<1>       |   38.345(F)|U6/IR_out_not0001 |   0.000|
+S5<2>       |   37.693(F)|U6/IR_out_not0001 |   0.000|
+S5<3>       |   38.274(F)|U6/IR_out_not0001 |   0.000|
+S5<4>       |   36.769(F)|U6/IR_out_not0001 |   0.000|
+S5<5>       |   38.049(F)|U6/IR_out_not0001 |   0.000|
+S5<6>       |   38.155(F)|U6/IR_out_not0001 |   0.000|
+S5<7>       |   37.440(F)|U6/IR_out_not0001 |   0.000|
+nBHE        |   37.440(F)|U6/IR_out_not0001 |   0.000|
+nBLE        |   36.633(F)|U6/IR_out_not0001 |   0.000|
+nMREQ       |   35.448(F)|U6/IR_out_not0001 |   0.000|
+nRD         |   36.816(F)|U6/IR_out_not0001 |   0.000|
+nWR         |   36.202(F)|U6/IR_out_not0001 |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    4.275|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock RST
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |         |         |   19.768|         |
+RST            |         |         |   12.077|   19.051|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+DBUS<0>        |S3<0>          |   10.589|
+DBUS<1>        |S3<1>          |   10.687|
+DBUS<2>        |S3<2>          |    9.871|
+DBUS<3>        |S3<3>          |    9.863|
+DBUS<4>        |S3<4>          |   10.407|
+DBUS<5>        |S3<5>          |   10.164|
+DBUS<6>        |S3<6>          |   10.174|
+DBUS<7>        |S3<7>          |    9.874|
+DBUS<8>        |S4<0>          |   13.014|
+DBUS<9>        |S4<1>          |   12.710|
+DBUS<10>       |S4<2>          |   12.147|
+DBUS<11>       |S4<3>          |   10.760|
+DBUS<12>       |S4<4>          |   11.027|
+DBUS<13>       |S4<5>          |   10.399|
+DBUS<14>       |S4<6>          |   11.096|
+DBUS<15>       |S4<7>          |   12.202|
+RST            |A<4>           |   23.890|
+RST            |A<5>           |   25.120|
+RST            |A<6>           |   23.019|
+RST            |A<7>           |   23.409|
+RST            |ABUS<0>        |   22.977|
+RST            |ABUS<1>        |   22.991|
+RST            |ABUS<2>        |   23.953|
+RST            |ABUS<3>        |   23.614|
+RST            |ABUS<4>        |   22.419|
+RST            |ABUS<5>        |   24.804|
+RST            |ABUS<6>        |   24.514|
+RST            |ABUS<7>        |   23.968|
+RST            |ABUS<8>        |   24.325|
+RST            |ABUS<9>        |   24.167|
+RST            |ABUS<10>       |   24.685|
+RST            |ABUS<11>       |   21.539|
+RST            |ABUS<12>       |   22.200|
+RST            |ABUS<13>       |   21.428|
+RST            |ABUS<14>       |   21.631|
+RST            |ABUS<15>       |   23.618|
+RST            |DBUS<0>        |   19.468|
+RST            |DBUS<1>        |   19.359|
+RST            |DBUS<2>        |   19.891|
+RST            |DBUS<3>        |   19.891|
+RST            |DBUS<4>        |   19.891|
+RST            |DBUS<5>        |   19.941|
+RST            |DBUS<6>        |   20.021|
+RST            |DBUS<7>        |   19.789|
+RST            |DBUS<8>        |   20.704|
+RST            |DBUS<9>        |   20.704|
+RST            |DBUS<10>       |   20.842|
+RST            |DBUS<11>       |   20.842|
+RST            |DBUS<12>       |   20.948|
+RST            |DBUS<13>       |   20.948|
+RST            |DBUS<14>       |   20.894|
+RST            |DBUS<15>       |   20.841|
+RST            |S0<0>          |   17.787|
+RST            |S0<1>          |   15.971|
+RST            |S0<2>          |   16.858|
+RST            |S0<3>          |   17.793|
+RST            |S0<4>          |   18.135|
+RST            |S0<5>          |   17.266|
+RST            |S0<6>          |   17.216|
+RST            |S0<7>          |   16.693|
+RST            |S1<0>          |   15.580|
+RST            |S1<1>          |   18.783|
+RST            |S1<2>          |   15.640|
+RST            |S1<3>          |   17.942|
+RST            |S1<4>          |   18.210|
+RST            |S1<5>          |   17.880|
+RST            |S1<6>          |   15.406|
+RST            |S1<7>          |   17.673|
+RST            |S5<0>          |   23.661|
+RST            |S5<1>          |   24.686|
+RST            |S5<2>          |   24.034|
+RST            |S5<3>          |   24.615|
+RST            |S5<4>          |   23.110|
+RST            |S5<5>          |   24.390|
+RST            |S5<6>          |   24.496|
+RST            |S5<7>          |   23.781|
+RST            |nBHE           |   24.366|
+RST            |nBLE           |   23.559|
+RST            |nMREQ          |   22.374|
+RST            |nRD            |   23.742|
+RST            |nWR            |   23.128|
+---------------+---------------+---------+
+
+
+Analysis completed Fri Aug 07 18:15:39 2015
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 86 MB
+
+
+
